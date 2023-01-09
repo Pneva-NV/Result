@@ -24,3 +24,7 @@ void Print(string[] Array)
     }
     Console.Write($"]");
 }
+
+Console.WriteLine();
+Print(Array);
+Console.Write($" -> ");
