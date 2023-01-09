@@ -28,3 +28,10 @@ void Print(string[] Array)
 Console.WriteLine();
 Print(Array);
 Console.Write($" -> ");
+
+var TwoArray = Array.Where(x => x.Length < 4).ToArray();
+for (int i = 0; i < TwoArray.Length; i++)
+    {
+        Print(TwoArray);
+        break;
+    }
